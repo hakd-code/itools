@@ -1,0 +1,18 @@
+{
+  "name": "itools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "iTools 在线工具箱 —— 轻量、清爽、本地优先的在线工具聚合站",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
